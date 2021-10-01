@@ -1,0 +1,35 @@
+header {
+  padding-top: 30px;
+}
+
+.header__container {
+  background: $main_font;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 45px 0 35px;
+  
+}
+
+.navigation li {
+  display: inline-block;
+  color: #aeaeae;
+}
+
+.navigation li a {
+  position: relative;
+	cursor: pointer;
+  text-transform: uppercase;
+	text-decoration: none; 
+  color: $header_font;
+  font-size: 16px;
+  padding: 46px 23px 36px;
+  transition: 0.3s;
+}
+
+.navigation li a:hover {
+  background: $secondMain_font;
+  transition: 0.3s;
+ }
+
+ 

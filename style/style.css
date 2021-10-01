@@ -1,0 +1,225 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;800&display=swap");
+* {
+  font-family: 'Open Sans', sans-serif; }
+
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0; }
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5; }
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none; }
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block; }
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em; }
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important; } }
+header,
+.container__background {
+  background: #f6f2f2; }
+
+.container__wrapper {
+  padding-top: 105px;
+  display: flex; }
+
+.container__wrapper .text__button p:first-child {
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding-bottom: 10px; }
+
+.container__wrapper .text__button p {
+  font-size: 15px;
+  margin-right: 176px;
+  line-height: 1.75;
+  color: rgba(0, 0, 0, 0.702); }
+
+.container__wrapper .text__button .button {
+  padding-top: 60px; }
+
+.container__wrapper .text__button .button a {
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  background: #ff3f40;
+  padding: 15px 65px;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer; }
+
+.container__wrapper .text__button .button a:hover {
+  border-color: #ff3f40;
+  background: #fff;
+  transition: 0.3s;
+  color: #ff3f40;
+  border: 2px solid; }
+
+.container__wrapper .video__wrapper iframe {
+  width: 551px;
+  height: 356px;
+  border: none;
+  box-shadow: 0 0 20px; }
+
+.container__background {
+  padding-bottom: 110px; }
+
+header {
+  padding-top: 30px; }
+
+.header__container {
+  background: #313030;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 45px 0 35px; }
+
+.navigation li {
+  display: inline-block;
+  color: #aeaeae; }
+
+.navigation li a {
+  position: relative;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #c0bfbf;
+  font-size: 16px;
+  padding: 46px 23px 36px;
+  transition: 0.3s; }
+
+.navigation li a:hover {
+  background: #ff3f40;
+  transition: 0.3s; }
+
+.block {
+  padding-top: 110px;
+  padding-bottom: 110px;
+  display: flex; }
+
+.block .possibilities {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%; }
+
+.block .possibilities .possibilities__item {
+  width: 50%;
+  flex-wrap: wrap;
+  line-height: 1.75;
+  padding: 5px; }
+
+.block .possibilities .possibilities__item img {
+  padding-bottom: 25px; }
+
+.block .possibilities .possibilities__item p:first-of-type {
+  font-size: 27px;
+  line-height: 2; }
+
+.block .possibilities .possibilities__item p:last-of-type {
+  padding-bottom: 30px; }
+
+.block .provide {
+  width: 50%; }
+
+.block .provide p:first-child {
+  padding-bottom: 20px;
+  font-size: 42px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.block .provide p {
+  font-size: 16px;
+  line-height: 1.75;
+  padding-right: 100px; }
+
+.block .provide .learn__more {
+  padding-top: 60px; }
+
+.block .provide .learn__more a {
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px 65px;
+  color: #ff3f40;
+  transition: 0.3s;
+  cursor: pointer;
+  border: 2px solid; }
+
+.block .provide .learn__more a:hover {
+  background: #ff3f40;
+  color: #fff;
+  transition: 0.3s; }
+
+.footer__border {
+  border: 1px solid;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-color: #909090; }
+
+* {
+  box-sizing: border-box; }
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=style.css.map */
