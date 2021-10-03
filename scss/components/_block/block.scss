@@ -1,75 +1,79 @@
-
-
 .block {
   padding-top: 110px;
   padding-bottom: 110px;
   display: flex;
+   
+  .provide {
+    width: 50%;
+
+    p {
+      font-size: 16px;
+      line-height: 1.75;
+      padding-right: 100px;
+
+     &:first-child {
+        padding-bottom: 20px;
+        font-size: 42px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+    .learn__more {
+      @extend %mp; 
+      
+      a {
+        @extend %button;
+         background: #fff;
+         color: $secondMain_font;
+          
+
+          &:hover {
+            background: $secondMain_font;
+            color: #fff;
+            transition: 0.3s;
+          }
+      }
+    }
+  }
+  .possibilities {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+
+    .possibilities__item {
+      width: 50%;
+      flex-wrap: wrap;
+      line-height: 1.75;
+      padding: 5px;
+
+      img {
+        padding-bottom: 25px;
+        
+
+      }
+      p {
+        
+        &:first-of-type {
+          font-size: 27px;
+          line-height: 2;
+        }
+
+        &:last-of-type{
+          padding-bottom: 25px;
+        }
+      }
+    }
+  }
 }
 
-.block .possibilities {
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-  
-
-}
-
-.block .possibilities .possibilities__item {
-  width: 50%;
-  flex-wrap: wrap;
-  line-height: 1.75;
-  padding: 5px;
-}
-
-.block .possibilities .possibilities__item img {
-  padding-bottom: 25px;
-}
-
-.block .possibilities .possibilities__item p:first-of-type {
-  font-size: 27px;
-  line-height: 2;
-}
-
-.block .possibilities .possibilities__item p:last-of-type {
-  padding-bottom: 30px;
-}
-
-.block .provide {
-  width: 50%;
-}
 
 
-.block .provide p:first-child {
-  padding-bottom: 20px;
-  font-size: 42px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
 
-.block .provide p {
-  font-size: 16px;
-  line-height: 1.75;
-  padding-right: 100px;
-}
 
-.block .provide .learn__more {
-  padding-top: 60px;
-}
 
-.block .provide .learn__more a {
-  font-size: 20px;
-   text-decoration: none;
-    border-radius: 5px; 
-    background: #fff;
-    padding: 15px 65px;
-    color: $secondMain_font;
-    transition: 0.3s;
-    cursor: pointer;
-    border: 2px solid;
-}
 
-.block .provide .learn__more a:hover {
-  background: $secondMain_font;
-  color: #fff;
-  transition: 0.3s;
-}
+
+
+
+
+
