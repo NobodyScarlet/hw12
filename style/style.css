@@ -328,7 +328,8 @@ header {
 
 .email__background {
   background-color: #f5f0dd;
-  padding-top: 150px; }
+  padding-top: 150px;
+  color: #fff; }
   .email__background .email__wrapper {
     justify-content: center;
     text-align: center; }
