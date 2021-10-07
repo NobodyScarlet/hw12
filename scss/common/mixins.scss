@@ -1,0 +1,11 @@
+@mixin wh($wd,$hgt,$bgc) {
+  width: $wd;
+  height: $hgt;
+  background-color: $bgc;
+}
+
+@mixin flex($fl,$wr,$wdt) {
+  display: $fl;
+  flex-wrap: $wr;
+  width: $wdt;
+}

@@ -12,7 +12,7 @@ header {
   nav {
      li {
       display: inline-block;
-      color: #aeaeae;
+      color: $grey_font;
     }
 
     a {
@@ -20,7 +20,7 @@ header {
 	    cursor: pointer;
       text-transform: uppercase;
 	    text-decoration: none; 
-      color: $header_font;
+      color: $grey_font;
       font-size: 16px;
       padding: 46px 23px 36px;
       transition: 0.3s;

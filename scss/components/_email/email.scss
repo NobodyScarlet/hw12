@@ -1,0 +1,48 @@
+.email__background {
+  background-color: $color__background;
+  padding-top: 150px;
+  
+  .email__wrapper {
+    justify-content: center;
+    text-align: center;
+    h3 {
+      @extend %h3;
+      text-transform: none;
+    }
+
+    .email__input {
+     padding-top: 50px;
+     padding-bottom: 150px;
+
+     input {
+      @include wh(500px,78px,white);
+       padding: 20px;
+       border-radius: 5px;
+       border: none;
+       margin-right: 20px;
+     }
+      
+     a {
+      font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 20px 65px;
+  transition: $transition;
+  cursor: pointer;
+  border: 2px solid;
+  display: inline-block;
+  border-color: $secondMain_font;
+      text-transform: uppercase;
+      background: $secondMain_font;
+      transition: $transition;
+      color: #fff;    
+      
+
+      &:hover {
+        @extend %button2;
+      }
+     }
+    }
+    
+  }
+}

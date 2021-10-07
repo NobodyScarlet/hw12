@@ -2,7 +2,11 @@
   padding-top: 110px;
   padding-bottom: 110px;
   display: flex;
-   
+  border: 1px solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color:rgb(144, 144, 144);
   .provide {
     width: 50%;
 
@@ -36,13 +40,11 @@
     }
   }
   .possibilities {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
+    @include flex(flex,wrap,50%);
+    
 
-    .possibilities__item {
+    &__item {
       width: 50%;
-      flex-wrap: wrap;
       line-height: 1.75;
       padding: 5px;
 
@@ -58,12 +60,13 @@
           line-height: 2;
         }
 
-        &:last-of-type{
+        &:last-of-type {
           padding-bottom: 25px;
         }
       }
     }
   }
+  
 }
 
 

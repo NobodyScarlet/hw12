@@ -9,14 +9,12 @@
   .text__button {
     
     p {
-      font-size: 15px;
-      margin-right: 176px;
-      line-height: 1.75;
-      color: $second_main_font;
-    
+      @extend %p;
+     max-width: 75%;
+     
 
      &:first-child {
-       font-size: 60px;
+       font-size: 66px;
        font-weight: bold;
        color: rgb(0, 0, 0);
        text-transform: uppercase;
@@ -37,7 +35,7 @@
        &:hover {
         border-color: $secondMain_font;
         background: #fff;
-        transition: 0.3s;
+        transition: $transition;
         color: $secondMain_font;
         border: 2px solid;
     }
@@ -45,11 +43,12 @@
   }
  }
  iframe {
-  width: 551px; 
-  height: 356px;
+  @include wh(551px,356px,white);
   border: none;
   box-shadow: 0 0 20px;
  }
+
+ 
 }
 
 

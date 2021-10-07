@@ -3,8 +3,12 @@ header,
   background: #f6f2f2;
 }
 
-
+body {
+  overflow-x: hidden;
+}
 .container {
-  max-width: 1250px;
+  max-width: $content-width;
   margin: 0 auto;
+
+  
 }
