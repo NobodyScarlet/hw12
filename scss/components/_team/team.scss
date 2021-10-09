@@ -80,6 +80,25 @@
       .main__item-inner {
         @include wh(100%,100%,rosybrown);
       @extend %backgrounds;
+      position: relative;
+      
+       
+     span{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, .8);
+        color: #fff;
+        text-align: center;
+        height: 30px;
+        opacity: 0;
+        transition: all .4s ease;
+        
+        &:hover {
+          opacity: 1;
+        }
+      }
      }
     }
   }

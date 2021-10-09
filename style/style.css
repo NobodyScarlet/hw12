@@ -324,7 +324,21 @@ header {
           .our__team .main__photo .mark .team__photos .main__photo-item .main__item-inner {
             width: 100%;
             height: 100%;
-            background-color: rosybrown; }
+            background-color: rosybrown;
+            position: relative; }
+            .our__team .main__photo .mark .team__photos .main__photo-item .main__item-inner span {
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              background: rgba(0, 0, 0, 0.8);
+              color: #fff;
+              text-align: center;
+              height: 30px;
+              opacity: 0;
+              transition: all .4s ease; }
+              .our__team .main__photo .mark .team__photos .main__photo-item .main__item-inner span:hover {
+                opacity: 1; }
 
 .email__background {
   background-color: #f5f0dd;
