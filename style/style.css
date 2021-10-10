@@ -132,7 +132,7 @@ body {
   .container__background .text__button p {
     max-width: 75%; }
     .container__background .text__button p:first-child {
-      font-size: 66px;
+      font-size: 61px;
       font-weight: bold;
       color: black;
       text-transform: uppercase;
