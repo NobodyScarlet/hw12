@@ -1,0 +1,72 @@
+@media (max-width: 1340px) {
+  .contacts {
+    text-align: center;
+    .contacts__wrapper {
+      .contacts__container {
+        p{
+          max-width: 100%;
+          
+        }
+      }
+    }
+    
+    .mail__contact {
+      justify-content: center;
+      display: inline;
+      .contact__info {
+        padding: 30px 0 10px 0;
+        margin: 30px 0 0 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column6;
+        justify-content: space-around;
+        
+        p{
+          margin: 0;
+          padding: 10px 20px 0 20px;
+        }
+      }
+
+      &:after {
+        display: none;
+      }
+     
+      .name__mail {
+        input {
+          width: 100%;
+          
+          &:last-of-type {
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+
+    
+  }
+
+
+} 
+
+@media (max-width: 767px) {
+  .contacts {
+   
+    .mail__contact {
+      .name__mail {
+        input {
+
+          font-size: 30px;
+          height: 80px;
+        }
+
+        textarea {
+          font-size: 30px;
+          height: 350px;
+        }
+        a {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}

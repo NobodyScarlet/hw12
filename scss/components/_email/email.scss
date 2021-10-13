@@ -16,27 +16,14 @@
      padding-bottom: 150px;
 
      input {
-      @include wh(500px,78px,white);
-       padding: 20px;
-       border-radius: 5px;
-       border: none;
+      @include input(20px,500px,78px,#fff);
        margin-right: 20px;
      }
       
      a {
-      font-size: 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  padding: 20px 65px;
-  transition: $transition;
-  cursor: pointer;
-  border: 2px solid;
-  display: inline-block;
-  border-color: $secondMain_font;
+      @include btns(20px,23px 65px,#fff,$secondMain_font);
       text-transform: uppercase;
-      background: $secondMain_font;
-      transition: $transition;
-      color: #fff;    
+     
       
 
       &:hover {

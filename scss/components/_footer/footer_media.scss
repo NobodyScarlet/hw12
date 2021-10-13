@@ -1,0 +1,11 @@
+@media (max-width:767px) {
+  .footer__background {
+    flex-direction: column;
+    text-align: center;
+
+    .link__img {
+      margin-top: 20px;
+      justify-content: center;
+    }
+  }
+}

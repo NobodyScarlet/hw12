@@ -3,14 +3,13 @@
 }
 
 %button {
-  font-size: 20px;
   text-decoration: none;
   border-radius: 5px;
-  padding: 15px 65px;
   transition: $transition;
   cursor: pointer;
   border: 2px solid;
   display: inline-block;
+  text-align: center;
 }
 
 %button2 {
@@ -47,3 +46,7 @@
 
 }
 
+%bradius {
+  border-radius: 5px;
+  border: none;
+}

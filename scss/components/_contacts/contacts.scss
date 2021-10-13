@@ -26,7 +26,7 @@
       position: relative;
 
       &:after {
-        @include wh(calc(74vw / 2),100%,$main_font);
+        @include wh(calc(85vw / 2),100%,$main_font);
         content: '';
         position: absolute;
         right: calc(-100vw / 3);
@@ -35,10 +35,7 @@
     .name__mail {
 
       input {
-       @include wh(340px,50px,$input);
-        padding-left: 20px;
-        border-radius: 5px;
-        border: none;
+       @include input(0 20px 0,340px,50px,$input);
         
 
         &:first-child {
@@ -47,26 +44,17 @@
       }
 
       textarea {
-        @include wh(100%,250px,$input);
-        border-radius: 5px;
+        @include input(30px,100%,250px,$input);
         margin-top: 50px;
         display: block;
-        padding: 30px;
-        border: none;
         resize: none;
       }
 
       a {
-       @extend %button;  
-        margin-top: 50px;
-      background-color: $secondMain_font;
-       border-color: $color__background;
+        @include btns(20px,30px 0,#fff,$secondMain_font);
       text-transform: uppercase;
-      border-radius: 5px;
-      padding: 30px 0;
       width: 100%;
-      text-align: center;
-      color: #fff;
+      margin-top: 50px;
 
       &:hover {
         @extend %button2;
@@ -76,13 +64,14 @@
     }
 
     .contact__info {
-      @include flex(flex,wrap,calc(40% - 80px));
+      @include flex(flex,wrap, calc(40% - 188px));
       flex-direction: column;
       justify-content: center;
       background: $main_font;
       margin-left: 80px;
       padding: 0 15px 0 70px;
       color: #fff;
+      
     }
 
     h3 {

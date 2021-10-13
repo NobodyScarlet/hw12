@@ -54,6 +54,7 @@
     .img__item {
       @include wh($content-width / 4,$content-width / 4,white);
       padding: 0 10px 20px;
+      margin: 0 auto;
    
 
    &-inner {

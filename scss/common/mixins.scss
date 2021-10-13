@@ -9,3 +9,19 @@
   flex-wrap: $wr;
   width: $wdt;
 }
+
+@mixin btns($fs,$pd,$clr,$bg) {
+  @extend %button;
+  font-size: $fs;
+  padding: $pd;
+  color: $clr;
+  background: $bg;
+}
+
+@mixin input($pd,$wd,$hgt,$bgc) {
+  @extend %bradius;
+  padding: $pd;
+  width: $wd;
+  height: $hgt;
+  background-color: $bgc;
+}

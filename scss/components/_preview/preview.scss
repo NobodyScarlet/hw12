@@ -26,9 +26,8 @@
     @extend %mp; 
 
     a {
-     @extend %button;
-       background: $secondMain_font;
-       color: #fff;
+     @include btns(20px,20px 60px,#fff,$secondMain_font);
+     
        
       
       

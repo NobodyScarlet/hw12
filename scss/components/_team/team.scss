@@ -74,8 +74,10 @@
   
       .main__photo-item {
         @include wh($content-width / 6,$content-width / 7,white);
-        padding: 0 20px 0 0;  
-     
+        
+       &:not(:last-child) {
+        padding: 0 20px 0 0; 
+       }
   
       .main__item-inner {
         @include wh(100%,100%,rosybrown);

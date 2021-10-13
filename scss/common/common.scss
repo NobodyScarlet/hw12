@@ -3,12 +3,52 @@ header,
   background: #f6f2f2;
 }
 
-body {
+
+
+ main{
   overflow-x: hidden;
 }
+
 .container {
   max-width: $content-width;
   margin: 0 auto;
-
+  
   
 }
+
+
+@media(max-width:1250px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media(max-width:1000px) {
+  .container {
+    width: 767px;
+  }
+}
+
+@media(max-width:767px) {
+  .container {
+    width: 576px;
+    
+  }
+  * {
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media(max-width: 500px) {
+  * {
+    font-size: 30px;
+  }
+}
+ 
+

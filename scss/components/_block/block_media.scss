@@ -1,0 +1,46 @@
+@media (max-width:992px) {
+  .block {
+    flex-direction: column;
+   
+    .provide {
+     width: 100%;
+     justify-content: center;
+     text-align: center;
+   
+     .learn__more {
+       a {
+         font-size: 45px;
+       }
+     }
+     p {
+      padding-right: 0;
+    }
+    }
+    .possibilities {
+      margin-top: 50px;
+      text-align: center;
+      width: 100%;
+
+      .possibilities__item {
+        img {
+          margin: 0 auto;
+        }
+        p {
+          &:first-of-type {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:500px) {
+  .block {
+    .possibilities__item {
+      p {
+        font-size: 22px;
+      }
+    }
+  }
+}
