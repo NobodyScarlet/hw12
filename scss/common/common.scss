@@ -41,11 +41,11 @@ header,
 
 @media(max-width: $sm) {
   .container {
-    width: 100%;
+    width: $xs;
   }
   * {
     font-size: 30px;
   }
 }
 
-    
+
