@@ -141,8 +141,8 @@ main {
     font-size: 20px; } }
 @media (max-width: 576px) {
   .container {
-    width: 100%; } }
-@media (max-width: 500px) {
+    width: 100%; }
+
   * {
     font-size: 30px; } }
 .contacts {
@@ -238,7 +238,7 @@ main {
         width: 100%; }
         .contacts .mail__contact .name__mail input:last-of-type {
           margin-top: 40px; } }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .contacts .mail__contact .name__mail input {
     font-size: 30px;
     height: 80px; }
@@ -413,7 +413,7 @@ main {
       height: 100%;
       background-color: rosybrown; }
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
   .products .products__img .img__item {
     padding: 10px 0; }
   .products .products__buttons ul li {
@@ -426,7 +426,7 @@ main {
     .products .products__img .img__item {
       width: 550px;
       height: 500px; } }
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   .products__buttons ul a {
     font-size: 20px; } }
 .footer__background {
@@ -498,7 +498,7 @@ main {
       .block .possibilities__item p:last-of-type {
         padding-bottom: 25px; }
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
   .block {
     flex-direction: column; }
     .block .provide {
@@ -517,7 +517,7 @@ main {
         margin: 0 auto; }
       .block .possibilities .possibilities__item p:first-of-type {
         font-size: 30px; } }
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   .block .possibilities__item p {
     font-size: 22px; } }
 header {
@@ -548,7 +548,7 @@ header {
   header nav a {
     font-size: 20px;
     padding: 46px 14px 36px; } }
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   header .header__container {
     padding: 32px 0 35px; }
   header nav a {

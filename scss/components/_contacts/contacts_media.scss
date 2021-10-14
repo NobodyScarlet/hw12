@@ -1,4 +1,4 @@
-@media (max-width: 1340px) {
+@media (max-width: $ex) {
   .contacts {
     text-align: center;
     .contacts__wrapper {
@@ -48,7 +48,7 @@
 
 } 
 
-@media (max-width: 767px) {
+@media (max-width: $lg) {
   .contacts {
    
     .mail__contact {

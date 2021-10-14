@@ -1,4 +1,4 @@
-@media (max-width:767px) {
+@media (max-width:$md) {
   .footer__background {
     flex-direction: column;
     text-align: center;

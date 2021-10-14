@@ -1,4 +1,4 @@
-@media (max-width: 1250px) {
+@media (max-width: $xl) {
   .container__background {
     .text__button {
        p{
@@ -16,7 +16,7 @@
   }
 }
 
-@media (max-width: 1000px){
+@media (max-width: $lg){
   .container__background {
     iframe {
       width: 100%;

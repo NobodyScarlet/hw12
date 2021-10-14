@@ -1,4 +1,4 @@
-@media (max-width: 992px) {
+@media (max-width: $lg) {
   .products { 
     .products__img {
       .img__item {
@@ -19,7 +19,7 @@
  }
 
 
- @media (max-width: 767px) {
+ @media (max-width: $md) {
    .products {
      .products__img {
        flex-direction: column;
@@ -32,7 +32,7 @@
    }
  }
 
- @media (max-width: 500px) {
+ @media (max-width: $sm) {
    .products__buttons {
      ul {
        a {

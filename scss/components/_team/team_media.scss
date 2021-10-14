@@ -1,4 +1,4 @@
-@media (max-width:1250px) {
+@media (max-width:$xl) {
   .our__team {
     justify-content: center;
     text-align: center;
@@ -32,7 +32,7 @@
     
   }
 
-  @media (max-width:767px) {
+  @media (max-width:$md) {
    .our__team {
      .main__photo {
        .mark {
@@ -59,7 +59,7 @@
   }
 }
 
-@media (max-width:767px) {
+@media (max-width:$md) {
   .our__team {
     .main__photo {
       .mark {

@@ -1,4 +1,4 @@
-@media (max-width:767px) {
+@media (max-width:$md) {
   header {
     nav {
       a {
@@ -10,7 +10,7 @@
 
 }
 
-@media (max-width:500px) {
+@media (max-width:$sm) {
   header {
     .header__container {
       padding: 32px 0 35px;
